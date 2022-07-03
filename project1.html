@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Regestration form</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+    
+        <div class="main">
+            <div class="Register">
+                <form action="#">
+                   
+                <h1><strong>Registration form</strong></h1>
+               
+               <label for="fname">First Name :<br>
+                <input type="text" id="fname" name="fname" placeholder="First Name" required="*"/>
+            </label><br>
+            
+            <label for="lname">Last Name:<br>
+          <input type="text" id="lname" name="lname" placeholder="Last Name" required="*"/>
+            </label><br>
+            <label for="phoneno">Phone Number:<br>
+            <input type="text" id ="phoneno" name="phoneno" placeholder="optional"/>
+            </label><br>
+            <label for="birthdate">D.O.B:<br>
+                <input type="date" id="birthdate" name="birthdate"/>
+        </label><br>
+        <label for="email">Email:<br>
+        <input type="email" name="email" id="email" placeholder="enter your id"/><br></label>
+        <label for="gender">Gender:<br>
+        <input type="radio" name="gender" value="male"/>Male</label>
+        <label for><input type="radio" name="gender" value="female"/>Female</label>
+        <lade for><input type="radio" name="gender" value="other" />Other</ladel><br>
+        <label for="multiselect">Country:<br>
+        <select name="multiselect" id ="multiselect">
+            <option type="disable selection">--selection--</option>
+            <option value ="India">India</option><br>
+            <option value="Other" >Other</option>
+</select><br>
+  <label for="multiselect">Qualification:<br>
+    <select name="multiselect" id="multiselect">
+    <option type="disable selection">--selection--</option>
+    <option value="pg" >PG</option>
+    <option value="ug">UG</option>
+    <option value="hsc">HSC</option>
+    <option value="ssc">SSC</option>
+</select>
+<label><br>
+<label for="language">Language:<br>
+    <input type="checkbox" id="checkbox" value="hindi"/>Hindi
+  </label>
+  <label>
+  <input type="checkbox" id="checkbox" value="English"/>English
+</label>
+<label for>
+<input type="checkbox" id="checkbox" value="Urdu"/>Urdu
+</label><br>
+<label for="address">Address:<br>
+<textarea name="address" cols="30"row="3"></textarea>
+</label><br>
+<input type="submit" value="Submit" name="submit" id="submit">
+</form>
+</div>   
+        </div>
+    
+    </body>
+</html>
